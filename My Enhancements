@@ -1,0 +1,27 @@
+Enhancements (Future Iterations)
+
+Data & API Enhancements
+
+1. Crop Yield Data Integration
+
+- Extend schema to link weather stations with crop yield files.
+
+- /api/crops endpoint → yield by region + weather correlation.
+
+2. Caching Layer
+
+- Use Redis/ElastiCache to speed up repetitive queries (/stats?year=2005).
+
+3. Geo Support
+
+- Store lat/lon for stations; add spatial queries (e.g., “all stations within 50km of X”).
+
+4. Advanced Analytics Endpoints
+
+- /api/weather/anomalies → detect unusual rainfall/temperature years.
+
+- /api/weather/trends → long-term warming/cooling trend per station.
+
+5. Visualization
+
+- Basic dashboards (Plotly/Dash or embedded charts in Swagger UI).
