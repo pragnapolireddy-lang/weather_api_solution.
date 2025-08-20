@@ -1,0 +1,13 @@
+AI Roadmap
+
+- Current state: Reliable ingestion + API.
+
+- Short-term enhancements: Crop yield integration, caching, geo features.
+
+- AI Modernization:
+
+    Data QA automation
+
+    Predictive insights (weather & yield)
+
+    Conversational interface for non-technical users
